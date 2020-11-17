@@ -15,7 +15,7 @@ router.use(function(error, req,res, next) {
 
 
 
-router.post('/print', taskController.printNumber);
+router.get('/document', taskController.fetchDocument);
 
 
 
